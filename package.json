@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Hurry up and pick a place to eat!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Erik Withak and Chris Golden",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5"
+  }
+}
